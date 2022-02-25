@@ -1,0 +1,30 @@
+/* * {
+    color: blue;
+} */
+
+body {
+    background-color: azure;
+}
+
+p {
+    color: black;
+    text-align: center;
+    background-color: orange;
+}
+
+.robinson {
+    color: hotpink;
+    background-color: crimson;
+}
+
+#jonathan {
+    color: grey;
+    background-color: navy;
+}
+
+.david {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 60% 25%
+}

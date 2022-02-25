@@ -1,0 +1,86 @@
+h3 {
+    color: inherit;
+    font-family: 'swissworks', sans-serif;
+    font-size: 2rem;
+}
+
+.text {
+    color: black;
+    /* text-decoration: underline;
+    text-decoration: line-through; */
+    background-color: aquamarine;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 500;
+    font-variant: small-caps;
+    /* font-style: italic; */
+    font: 16px;
+}
+
+.span {
+    text-decoration: none;
+    color: coral;
+    text-decoration: line-through;
+}
+
+#go {
+    /* background-color: inherit; */
+    background-color: black;
+    color: green;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 12px;
+}
+
+#go:hover {
+    font-size: 23px;
+    background-color: #F8CE57;
+}
+
+
+/* ******************PSEUDO CLASSES************* */
+
+.text {
+    background-color: antiquewhite;
+}
+
+.text p:first-child {
+    color: orchid;
+}
+
+.text p:nth-child(3) {
+    color: olivedrab;
+}
+
+.text p:nth-child(3):hover {
+    color: blue;
+}
+
+.text p:last-child {
+    color: blue;
+}
+
+.top::first-letter {
+    color: red;
+}
+
+.pot {
+    width: 200px;
+    height: 100px;
+    background-color: chocolate;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: dodgerblue;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+}
+
+.pot:hover {
+    border: none;
+    border-radius: 0px;
+    /* width: 600px;
+    height: 50px; */
+    background-color: crimson;
+}
